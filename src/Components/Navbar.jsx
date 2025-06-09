@@ -18,7 +18,7 @@ function Navbar() {
                 <div>Home</div>
             </NavLink>
            <NavLink to="/cart">
-  <div className="relative">
+  <div className="relative mr-2">
     <MdShoppingCart />
     {cart.length > 0 && (
       <span className="absolute -top-2 -right-2 bg-green-600 text-xs text-white rounded-full w-5 h-5 flex justify-center items-center animate-bounce">
